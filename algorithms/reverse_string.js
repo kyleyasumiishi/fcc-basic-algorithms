@@ -11,4 +11,4 @@ function reverseString(str) {
     return reversed;
 }
 
-module.exports = { reverseString: reverseString };
+module.exports = { reverseString };

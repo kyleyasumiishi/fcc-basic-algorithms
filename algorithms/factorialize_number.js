@@ -10,4 +10,4 @@ function factorialize(num) {
     return factorial;
 }
 
-module.exports = { factorialize: factorialize };
+module.exports = { factorialize };
