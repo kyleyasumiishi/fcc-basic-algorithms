@@ -1,3 +1,8 @@
+/*
+ * Returns an array consisting of the largest number from each provided sub-array.
+ * @param {Array} arr - A multidimensional array. 
+ * FreeCodeCamp Note: For simplicity, the provided array for each test contains exactly four sub-arrays.
+ */
 function largestOfFour(arr) {
     let largestNums = [];
     for (let arrIdx = 0; arrIdx < arr.length; arrIdx++) {
@@ -11,8 +16,6 @@ function largestOfFour(arr) {
     }
     return largestNums;
 }
-
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
 module.exports = { largestOfFour };
 

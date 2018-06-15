@@ -1,3 +1,7 @@
+/*
+ * Returns the factorial of the provided integer.
+ * @param {Number} num
+ */
 function factorialize(num) {
     let factorial = 1;
     for (let i = num; i > 0; i--) {
@@ -5,7 +9,5 @@ function factorialize(num) {
     }
     return factorial;
 }
-
-factorialize(5);
 
 module.exports = { factorialize: factorialize };

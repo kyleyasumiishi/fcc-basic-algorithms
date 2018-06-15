@@ -1,3 +1,7 @@
+/*
+ * Returns the length of the longest word in the provided sentence.
+ * @param {String} str
+ */
 function findLongestWordLength(str) {
     let words = str.split(" ");
     let longestWordLength = 0;
@@ -8,8 +12,6 @@ function findLongestWordLength(str) {
     }
     return longestWordLength;
 }
-
-findLongestWordLength("The quick brown fox jumped over the lazy dog");
 
 module.exports = { findLongestWordLength };    
 

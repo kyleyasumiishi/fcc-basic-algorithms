@@ -1,3 +1,7 @@
+/*
+ * Reverse the provided string.
+ * @param {String} str
+ */
 function reverseString(str) {
     let arrayOfStrings = str.split("");
     let reversed = "";
@@ -6,7 +10,5 @@ function reverseString(str) {
     }
     return reversed;
 }
-
-reverseString("hello");
 
 module.exports = { reverseString: reverseString };
