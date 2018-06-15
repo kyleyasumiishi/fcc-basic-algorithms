@@ -8,5 +8,4 @@ function factorialize(num) {
 
 factorialize(5);
 
-
 module.exports = { factorialize: factorialize };

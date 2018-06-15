@@ -18,10 +18,3 @@ For example, instead of { findLongestWordLength : findLongestWordLength }, you c
 export the function simply by writing findLongestWordLength once, like so: { findLongestWordLength }.
 */
 
-// create array of words in string - remove spaces - use split with a space as separator
-
-// declare variable longestWord = 0;
-
-// iterate through array and update longestWord;
-
-// return longestWord;
