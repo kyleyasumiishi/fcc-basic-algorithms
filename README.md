@@ -36,6 +36,7 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 
 - Unit testing with Mocha and Chai
 - Documenting JavaScript code with JSDoc
+- JavaScript filename naming best practices
 - Understanding String immutability
 - String concatenation
 - Arrow functions
