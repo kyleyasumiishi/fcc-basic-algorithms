@@ -1,5 +1,5 @@
 /*
- * Repeats a given string (str) for num times. Return an empty string if num is not a positive number.
+ * Repeats a given string str for num times. Return an empty string if num is not a positive number.
  * @param {String} str
  * @param {Number} num
  */
