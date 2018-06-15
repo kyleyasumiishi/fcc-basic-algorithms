@@ -1,12 +1,7 @@
 function convertToF(celsius) {
-    let fahrenheit;
-    return fahrenheit;
+    return (celsius * 9/5) + 32;
 }
   
 convertToF(30);
-
-
-
-
 
 module.exports = { convertToF: convertToF };
